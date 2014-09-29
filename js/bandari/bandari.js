@@ -10179,14 +10179,14 @@ $(document).ready(function() {
     $("#bdrbgm").jPlayer({
         ready: function(event) {
             $(this).jPlayer("setMedia", {
-                title: "ã“ã‚™ãã‘ã‚™ã‚“ã‚ˆã†(ãƒãƒ¼ãƒˆãƒžãƒ¼ã‚¯) èˆž-ä¹™HiME",
-                mp3: "http://oss.play.bandari.net/Bestofsite/Animate/04.Himewu.mp3",
+                title: "",
+                mp3: "",
             }).jPlayer("play");
         },
         ended: function() {
             $(this).jPlayer("play");
         },
-        swfPath: "http://www.bandari.net/wp-content/themes/bls_music/zh-CN/js",
+        swfPath: "",
         supplied: "mp3",
         cssSelectorAncestor: '#bdrplaying',
         wmode: "window",
