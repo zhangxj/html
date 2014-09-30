@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<htmllang="zh-CN">
+<html lang="zh-CN">
  <head>
+  <title>TITLE</title> 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <link type="text/css" media="all" href="css/bandari/bandari.css" rel="stylesheet" />
   <link type="text/css" media="all" href="css/style.css" rel="stylesheet" />
-  <title>TITLE</title> 
+
+  <link href="bracket/css/style.default.css" rel="stylesheet">
+  <link href="bracket/css/prettyPhoto.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="js/bandari/html5shiv.min.js"></script>
     <script src="js/bandari/respond.min.js"></script>
   <![endif]-->
+
+  <style type="text/css">
+  body{
+    background: #fff
+  }
+  </style>
  </head>
  <body> 
   <header class="bdr_header">
@@ -48,72 +57,170 @@
 
   <section id="bdr_home">
    <div class="hoveylay page-content">
-    <div class="row">
-      <div class="col-md-2"></div>
-
-      <div class="col-md-2">
-        <img src="images/contant.jpg" class="center-block" width="200px" height="200px"/>
-        <h2><p class="text-center">栅格系统</p></h2>
-        <div class="clear"></div>
-        <h4><p> &nbsp; &nbsp; &nbsp; Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列。它包含了易于使用的预定义类，还有强大的mixin 用于生成更具语义的布局。
-栅格系统用于通过一系列的行（row）与列（column）的组合来创建页面布局，你的内容就可以放入这些创建好的布局中。下面就介绍一下 Bootstrap 栅格系统的工作原理Bootstrap 提供了一套响应式</p>
-        </h4>
-        <br><br>
-        <h3><p> 联系我们: </p></h3>
-        <p>
-          <span style="font-family:宋体;">地址：&nbsp;<span style="font-family:宋体;"> </span>
-        </p>
-        <p>
-          <span style="font-family:宋体;">电话：&nbsp;<span>010-5885 6680</span></span> 
-        </p>
-        <p>
-          <span style="font-family:宋体;">传真：&nbsp;010-<span>5885 6685</span></span> 
-        </p>
-        <p>
-          <span style="font-family:宋体;">邮箱：&nbsp;</span></span> 
-        </p>
-      </div>
-
-      <div class="col-md-4">
-        <!-- div slider -->
-        <div class="flexslider shoplide bdr-fade bounceInDown">
-          <ul class="slides">
-            <li> <a href="#"> <img src="images/1.jpg"/> </a> </li>
-            <li> <a href="#"> <img src="images/2.jpg"/> </a> </li>
-            <li> <a href="#"> <img src="images/3.jpg"/> </a> </li>
+     <div class="contentpanel">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="images/p.jpg" class="thumbnail img-responsive" alt="" />
+          
+          <div class="mb30"></div>
+          
+          <h5 class="subtitle">About</h5>
+          <p class="mb30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, consectetur adipisicing elit, sed do eiusmod tempor incididunt quis nostrud exercitat... <a href="">Show More</a></p>
+          
+          <h5 class="subtitle">Connect</h5>
+          <ul class="profile-social-list">
+            <li><i class="fa fa-twitter"></i> <a href="">twitter.com/eileensideways</a></li>
+            <li><i class="fa fa-facebook"></i> <a href="">facebook.com/eileen</a></li>
+            <li><i class="fa fa-youtube"></i> <a href="">youtube.com/eileen22</a></li>
+            <li><i class="fa fa-linkedin"></i> <a href="">linkedin.com/4ever-eileen</a></li>
+            <li><i class="fa fa-pinterest"></i> <a href="">pinterest.com/eileen</a></li>
+            <li><i class="fa fa-instagram"></i> <a href="">instagram.com/eiside</a></li>
           </ul>
+          
+          <div class="mb30"></div>
+          
+          <h5 class="subtitle">Address</h5>
+          <address>
+            795 Folsom Ave, Suite 600<br>
+            San Francisco, CA 94107<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+          </address>
+          
+        </div><!-- col-sm-3 -->
+        <div class="col-sm-6">
+          
+          <div class="profile-header">
+            <div class="row">
+              <div class="col-sm-4">
+              <h2 class="profile-name" id="profile-name" style="display:inline-block">Eileen Sideways</h2>
+              &nbsp;&nbsp;&nbsp;
+              <button class="btn btn-white"><i class="fa fa-envelope-o"></i> Message</button>
+              <div class="profile-location"><i class="fa fa-map-marker"></i> San Francisco, California, USA</div>
+              <div class="profile-position"><i class="fa fa-briefcase"></i> Software Engineer at <a href="">SomeCompany, Inc.</a></div>
+              </div>
+              <div class="col-sm-8 bdr_title"> 
+                  <h2>妙手慈心 真实感动</h2> <p>永不过时的选择，永远无悔的决定； <br />由身入心、内外兼修的养生哲学</p> 
+              </div>
+            </div>
+          </div><!-- profile-header -->
+
+          <!-- div flexslider -->
+          <div class="flexslider shoplide bdr-fade bounceInDown">
+            <ul class="slides">
+              <li> <a href="#"> <img src="images/1.jpg"/> </a> </li>
+              <li> <a href="#"> <img src="images/2.jpg"/> </a> </li>
+              <li> <a href="#"> <img src="images/3.jpg"/> </a> </li>
+            </ul>
+          </div> 
+          <!-- end div flexslider -->
+          <!--  -->
+          <div>HELLO WORLD</div>
+          <div class="flexslider shoplide bdr-fade bounceInDown">
+           <ul class="slides">
+            <li>
+             <ul class="shop_item clearfix">
+              <li> <a href="#"> <img src="images/p.jpg" alt="alt" /> </a> </li>
+              <li> <a href="#"> <img  src="images/p.jpg" alt="alt" /> </a> </li>
+              <li> <a href="#"> <img  src="images/p.jpg" alt="alt" /> </a> </li>
+             </ul>
+           </li>
+           <li>
+             <ul class="shop_item clearfix">
+              <li> <a href="#"> <img src="images/p.jpg" alt="alt" /> </a> </li>
+              <li> <a href="#"> <img  src="images/p.jpg" alt="alt" /> </a> </li>
+              <li> <a href="#"> <img  src="images/p.jpg" alt="alt" /> </a> </li>
+             </ul>
+           </li>
+           </ul>
+          </div>
+          <!--  -->
+        </div><!-- col-sm-9 -->
+
+        <div class="col-sm-3">
+
+        <ul class="nav nav-tabs nav-justified nav-profile">
+          <li class="active"><a href="#NEWS" data-toggle="tab"><strong>NEWS</strong></a></li>
+          <li class=""><a href="#profile" data-toggle="tab"><strong>Profile</strong></a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="NEWS">
+            <div class="activity-list">
+                <div class="media act-media">
+                  <a class="pull-left" href="#">
+                    <img class="media-object act-thumb" src="images/photos/user2.png" alt="">
+                  </a>
+                  <div class="media-body act-media-body">
+                    <strong>Chris Anthemum</strong> liked a photos<br>
+                    <small class="text-muted">Today at 12:30pm</small>
+                    
+                    <ul class="uploadphoto-list">
+                      <li><a href="images/photos/media5.png" data-rel="prettyPhoto" rel="prettyPhoto"><img src="images/photos/media5.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="images/photos/media4.png" data-rel="prettyPhoto" rel="prettyPhoto"><img src="images/photos/media4.png" class="img-responsive" alt=""></a></li>
+                    </ul>
+                  </div>
+                </div><!-- media -->
+
+                <div class="media act-media">
+                  <a class="pull-left" href="#">
+                    <img class="media-object act-thumb" src="images/photos/user1.png" alt="">
+                  </a>
+                  <div class="media-body act-media-body">
+                    <strong>Ray Sin</strong> is now following to <strong>Chris Anthemum</strong>. <br>
+                    <small class="text-muted">Yesterday at 1:30pm</small>
+                  </div>
+                </div><!-- media -->    
+
+                <div class="media act-media">
+                  <a class="pull-left" href="#">
+                    <img class="media-object act-thumb" src="images/photos/user4.png" alt="">
+                  </a>
+                  <div class="media-body act-media-body">
+                    <strong>Frank Furter</strong> is now following to <strong>Weno Carasbong</strong>. <br>
+                    <small class="text-muted">December 20 at 4:30pm</small>
+                  </div>
+                </div><!-- media -->
+            </div>
+          </div>
+
+          <div class="tab-pane" id="profile">
+            <div class="activity-list">
+                <div class="media act-media">
+                  <a class="pull-left" href="#">
+                    <img class="media-object act-thumb" src="images/photos/user1.png" alt="">
+                  </a>
+                  <div class="media-body act-media-body">
+                    <strong>Ray Sin</strong> is now following to <strong>Chris Anthemum</strong>. <br>
+                    <small class="text-muted">Yesterday at 1:30pm</small>
+                  </div>
+                </div><!-- media -->    
+
+                <div class="media act-media">
+                  <a class="pull-left" href="#">
+                    <img class="media-object act-thumb" src="images/photos/user4.png" alt="">
+                  </a>
+                  <div class="media-body act-media-body">
+                    <strong>Frank Furter</strong> is now following to <strong>Weno Carasbong</strong>. <br>
+                    <small class="text-muted">December 20 at 4:30pm</small>
+                  </div>
+                </div><!-- media -->
+            </div>
+          </div>
         </div>
-        <!-- end div slider -->
-        <div class="table-responsive">
-        <table class="table  table-bordered table-hover">
-        <thead>
-        <tr> <th>NEWS</th> </tr>
-        </thead>
-        <tbody>
-        <tr> <td> 开源大桥 </td> </tr>
-        <tr class="success"> <td> 开源大桥 </td> </tr>
-        <tr> <td> 开源大桥 </td> </tr>
-        <tr class="success"> <td> 开源大桥 </td> </tr>
-        <tr> <td> 开源大桥 </td> </tr>
-        <tr class="success"> <td> 开源大桥 </td> </tr>
-        <tr> <td> 开源大桥 </td> </tr>
-        </tbody>
-        </table>
-        </div> <!-- end div table-responsive -->
 
 
-     </div>
-      <div class="col-md-2"></div> 
-      <div class="col-md-2"></div>
-  </div>
 
-    <div class="bdr_hello">
-    </div> 
+        </div>
+      </div><!-- row -->
+    </div><!-- contentpanel -->
+
+    <div>
     <a href="#bdr_about" class="scroll_link">
      <div class="mouse-icon">
       <div class="wheel"></div>
-     </div> </a>
-   </div> 
+     </div>
+    </a>
+  </div>
   </section> 
 
   <section class="bdr_body"> 

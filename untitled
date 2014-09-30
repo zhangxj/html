@@ -1,0 +1,36 @@
+  <!-- <div class="row">
+      <div class="col-md-2"></div>
+
+      <div class="col-md-2">
+ 
+      </div>
+
+      <div class="col-md-4"> 
+        <div class="flexslider shoplide bdr-fade bounceInDown">
+          <ul class="slides">
+            <li> <a href="#"> <img src="images/1.jpg"/> </a> </li>
+            <li> <a href="#"> <img src="images/2.jpg"/> </a> </li>
+            <li> <a href="#"> <img src="images/3.jpg"/> </a> </li>
+          </ul>
+        </div> 
+        <div class="table-responsive">
+        <table class="table  table-bordered table-hover">
+        <thead>
+        <tr> <th>NEWS</th> </tr>
+        </thead>
+        <tbody>
+        <tr> <td> 开源大桥 </td> </tr>
+        <tr class="success"> <td> 开源大桥 </td> </tr>
+        <tr> <td> 开源大桥 </td> </tr>
+        <tr class="success"> <td> 开源大桥 </td> </tr>
+        <tr> <td> 开源大桥 </td> </tr>
+        <tr class="success"> <td> 开源大桥 </td> </tr>
+        <tr> <td> 开源大桥 </td> </tr>
+        </tbody>
+        </table>
+        </div>  
+
+
+     </div>
+      <div class="col-md-2"></div> 
+      <div class="col-md-2"></div> -->

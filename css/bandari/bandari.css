@@ -12930,7 +12930,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .flexslider .slides img {
 	width: 100%;
-	height: 300px;
 	display: block
 }
 
@@ -14163,12 +14162,13 @@ h1,h2,h3,h4,h5,h6,small {
 
 .shop_item li {
 	list-style: none;
-	float: left
+	width: 33%;
+	float: left;
 }
 
 .shop_item li a {
 	display: block;
-	width: 188px;
+	/*width: 188px;*/
 	margin: 0 20px;
 	color: #fff
 }
